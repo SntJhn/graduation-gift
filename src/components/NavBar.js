@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from 'react'
 import { Link } from 'react-router-dom';
+// eslint-disable-next-line
 import { Button } from './Button';
 import './NavBar.css';
 
 function NavBar() {
   const [click, setClick] = useState(false);
+  // eslint-disable-next-line
   const [button, setButton] = useState(true);
 
   const handleClick = () =>setClick(!click);
